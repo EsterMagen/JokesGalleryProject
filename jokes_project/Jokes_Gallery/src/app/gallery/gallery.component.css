@@ -1,0 +1,21 @@
+
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 13% 13% 13% 13% 13% 13% 13% ;
+  grid-template-rows: 10% 10% 10% 14% 10% 10% 10% 10% 10% 10%;
+  grid-gap: 8px 8px;
+  justify-content:center;
+  position: absolute;
+
+}
+
+.jokeDiv {
+  background-color: pink;
+  border: solid;
+  border-radius: 10px;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-family: cursive;
+  font-size: 12px;
+}

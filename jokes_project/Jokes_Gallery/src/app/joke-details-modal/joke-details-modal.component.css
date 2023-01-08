@@ -1,0 +1,51 @@
+.joke {
+    text-align: center;
+    font-weight: bold;
+    color: rgb(253, 80, 114);
+    font-size: 20px;
+    font-family: cursive;
+    border: solid;
+    border-radius: 30px;
+    background-color: pink;
+    width: 80%;
+    margin: auto;
+    height: fit-content;
+    line-height: 2;
+    margin-top: 3%;
+}
+.jokeDiv {
+    font-size: 20px;
+    font-family: cursive;
+}
+.closeBtn{
+    display: block;
+    width: 30%;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 18px;
+    font-family: cursive;
+    background-color: #f18fa0;
+    margin-top: 55px;
+    margin: auto;
+}
+.suggestedJokeDiv {
+  background-color: pink;
+  border: solid;
+  border-radius: 10px;
+  padding-left: 5%;
+  padding-right: 5%;
+  width: 450px;
+  font-family: cursive;
+  margin-bottom: 2%;
+}
+.detailsDiv {
+    display: inline-block;
+    margin-left: 10%;
+    vertical-align: top;
+}
+.suggestedJokesDiv {
+    display: inline-block;
+    direction: rtl;
+    text-align: center;
+    margin-left: 25%;
+}

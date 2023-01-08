@@ -1,0 +1,39 @@
+.divLogin{
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    border: solid;
+    align-items: center;
+    margin-top: 10%;
+    background-color: pink;
+    font-family: cursive;
+}
+.loginTite {
+    font-size: 40px;
+    text-align: center;
+}
+.submitBtn{
+    display: block;
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 18px;
+    font-family: cursive;
+    background-color: #f18fa0;
+    margin-top: 55px;
+}
+.loginInput {
+    width: 100%;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    border-bottom: solid;
+}
+.formLogin {
+    width: 70%;
+    margin: auto;
+}
+.errorMessage {
+    font-size: 14px;
+    color: red;
+}

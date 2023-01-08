@@ -1,0 +1,10 @@
+<div class="wrapper">
+<div *ngFor="let joke of formgroup.value.jokesArray" class="jokeDiv" mat-raised-button (click)="openDialog(joke)">
+    <p *ngIf="joke.type === 'twopart'">{{joke.setup}}</p>
+    <p *ngIf="joke.type === 'twopart'">{{joke.delivery}}</p>
+    <p *ngIf="joke.type === 'single'">{{joke.joke}}</p>
+  </div>
+</div>
+
+
+

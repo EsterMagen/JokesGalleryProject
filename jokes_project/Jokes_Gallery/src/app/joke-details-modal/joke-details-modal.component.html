@@ -1,0 +1,27 @@
+
+<div class="jokeDiv">
+<div class="joke" mat-dialog-title>{{data.joke}}</div>
+<div class="detailsDiv">
+  <h2>details:</h2>
+  <p>category: {{data.category}}</p>
+  <p>type: {{data.type}}</p>
+  <p>id: {{data.id}}</p>
+  <p>error: {{data.error}}</p>
+  <ul>
+      <li>nsfw: {{data.flags.nsfw}}</li>
+      <li>religious: {{data.flags.religious}}</li>
+      <li>political: {{data.flags.political}}</li>
+      <li>racist: {{data.flags.racist}}</li>
+      <li>sexist: {{data.flags.sexist}}</li>
+  </ul>
+</div>
+<div class="suggestedJokesDiv">
+  <p>...more suggested jokes</p>
+  <div *ngFor="let joke of data.suggestedJokes" class="suggestedJokeDiv">
+    <p>{{joke}}</p>
+  </div>
+</div>
+<div mat-dialog-actions>
+  <button mat-button mat-dialog-close cdkFocusInitial class="closeBtn">close</button>
+</div>
+</div>

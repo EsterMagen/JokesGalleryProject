@@ -1,0 +1,15 @@
+
+
+<div class="divLogin">
+    <p class="loginTite">login</p>
+    <form class="formLogin">
+          <p>Email</p>
+          <input class="loginInput" type="email" (blur)="emailFieldBlur()" [formControl]="emailFormControl" placeholder="Ex. pat@example.com">
+          <p *ngIf="errorMessages['email']" class="errorMessage">{{errorMessages['email']}}</p>
+          <p>Password</p>
+          <input class="loginInput" type="password" (blur)="passwordFieldBlur()" [formControl]="passwordFormControl" [maxlength]="20">
+          <p *ngIf="errorMessages['password']" class="errorMessage">{{errorMessages['password']}}</p>
+          <button class="submitBtn" type="submit" (click)="submit()">let's go</button>
+
+    </form>
+</div>
